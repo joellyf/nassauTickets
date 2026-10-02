@@ -1,0 +1,33 @@
+# --- REACT / IONIC (FRONTEND) ---
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.ionic/
+/frontend/.cache/
+/frontend/platforms/
+/frontend/plugins/
+
+# --- BACKEND / GERAL ---
+/backend/node_modules/
+/backend/pycache/
+/backend/venv/
+.env
+
+# --- EDITOR / SISTEMA OPERACIONAL ---
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+node_modules
+
+# --- ARQUIVOS DA RAIZ PARA IGNORAR / REMOVER DO GITHUB ---
+capacitor.config.ts
+cypress.config.ts
+eslint.config.js
+index.html
+ionic.config.json
+package.json
+package-lock.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
