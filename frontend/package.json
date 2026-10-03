@@ -1,5 +1,5 @@
 {
-  "name": "teste",
+  "name": "nassau-tickets-frontend",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -48,5 +48,5 @@
     "vite": "^8.0.0",
     "vitest": "~4.0.18"
   },
-  "description": "An Ionic project"
+  "description": "Frontend React do sistema de atendimento nassauTickets"
 }
