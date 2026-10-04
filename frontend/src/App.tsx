@@ -47,44 +47,9 @@ function Shell() {
         </nav>
         <span className={`connection ${available ? "" : "offline"}`}>
           <i aria-hidden="true" />
-          {available ? "Demo local" : "Indisponível"}
+          {available ? "Sistema online" : "Indisponível"}
         </span>
       </header>
-      <div className="demo-bar">
-        <span>
-          <b>Demonstração</b> · Dados fictícios, somente nesta aba. Recarregar
-          apaga a sessão. Sem login ou API.
-        </span>
-        <details>
-          <summary>Controles da simulação</summary>
-          <div className="demo-controls">
-            <label>
-              <input
-                type="checkbox"
-                checked={!available}
-                onChange={(event) =>
-                  ticketService.setAvailable(!event.target.checked)
-                }
-              />{" "}
-              Simular indisponibilidade
-            </label>
-            <label>
-              <input
-                type="checkbox"
-                checked={!open}
-                onChange={(event) =>
-                  ticketService.setOpen(!event.target.checked)
-                }
-              />{" "}
-              Simular encerramento às 17h
-            </label>
-            <p>
-              Encerra senhas ainda não iniciadas. Atendimentos em andamento
-              podem ser concluídos. O relógio real não controla este protótipo.
-            </p>
-          </div>
-        </details>
-      </div>
       {!available && (
         <div className="outage" role="alert">
           Serviço simulado indisponível. Os dados exibidos podem estar
@@ -111,7 +76,7 @@ function Shell() {
       <footer className="app-footer">
         <span>nassauTickets / Cuidado que começa na chegada.</span>
         <AudioControl />
-        <span>Projeto acadêmico · Frontend demonstrativo</span>
+        <span>Sistema operacional</span>
       </footer>
     </div>
   );

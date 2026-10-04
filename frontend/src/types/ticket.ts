@@ -9,6 +9,7 @@ export type TicketStatus =
   | "DESCARTADA";
 export interface Ticket {
   id: string;
+  databaseId?: number;
   type: TicketType;
   status: TicketStatus;
   issuedAt: string;
