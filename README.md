@@ -79,9 +79,10 @@ MIT, conforme [LICENSE](LICENSE).
 ## Membros
 | Nome | Matrícula | Papel |
 | :--- | :--- | :--- |
-| joelly fernanda | 01781734 | Scrum Master |
+| Joelly Fernanda | 01781734 | Scrum Master |
 | Henry Torres | 01852068 | Desenvolvedor |
 | Danilo Gabriel | 01792132 | Desenvolvedor |
 | Lucas Silva | 01798602 | Documentador |
 | Luiz Eduardo | 01803321 | Testador |
-| laryssa Eduarda Nascimento | 01814379 | Documentador |
+| Laryssa Eduarda Nascimento | 01814379 | Documentador |
+| Maria Eduarda Aguiar | 01781734 | Testador |
