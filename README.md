@@ -85,4 +85,4 @@ MIT, conforme [LICENSE](LICENSE).
 | Lucas Silva | 01798602 | Documentador |
 | Luiz Eduardo | 01803321 | Testador |
 | Laryssa Eduarda Nascimento | 01814379 | Documentador |
-| Maria Eduarda Aguiar | 01781734 | Testador |
+| Maria Eduarda Aguiar | 01810256 | Testador |
